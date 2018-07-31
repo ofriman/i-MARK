@@ -4,7 +4,7 @@ var assert = chai.assert;
 
 describe('mex', function() {
 	it('empty array', function() {
-		assert.equal(mex([]), 0);
+		assert.equal(imark.mex([]), 0);
 	});
 
 	it('not empty array', function() {
@@ -21,7 +21,7 @@ describe('mex', function() {
 
 describe('options', function() {
 	it('empty sets', function() {
-		assert.deepEqual(options(10, [], []), []);
+		assert.deepEqual(imark.options(10, [], []), []);
 	});
 
 	it('not empty sets', function() {
